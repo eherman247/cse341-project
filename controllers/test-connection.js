@@ -1,5 +1,5 @@
 const hello = (req, res) => {
-    res.send("Hello Erica");
+    res.send("Erica Herman");
   };
 
 module.exports = {
