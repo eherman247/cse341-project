@@ -6,13 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js",
-    "begin": "node server.js"
+    "begin": "node server.js",
+    "tester": "nodemon mongo-test.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "dotenv": "^16.3.2",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
